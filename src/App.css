@@ -1,0 +1,252 @@
+body
+{
+  padding: 0px;
+  margin: 0px;
+}
+/*nave bar in app.js page */
+.nav
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name
+{
+    font-size: 60px;
+    color: blue;
+    font-weight: bolder;
+    padding-left: 5%;
+}
+.logo
+{
+  padding-left: 15px;
+  font-size: 45px;
+}
+.name
+ {
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: 100;
+}
+@keyframes example {
+  from {color: blue;}
+  to {color: red;}
+}
+.nav .link2
+{
+    margin-left:56%;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav .link2:hover{
+    text-decoration: underline;  
+    color: blue; 
+}
+.nav .link
+{
+    margin-left: 4%;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav .link:hover
+{
+  text-decoration: underline;  
+  color: blue;
+  
+}
+.nav .link1
+{
+    margin-left: 4%;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav .link1:hover
+{
+    text-decoration: underline;
+    color: blue;
+}
+.signin
+{
+    text-decoration: none;
+    padding: 2px 1px 2px 1px;
+    font-size: 20px;
+    color: red;
+
+    margin-left: 4%;
+}
+.signin:hover
+{
+    color: blue;
+    font-size: 22px;
+}
+/*=============home style============*/
+.dad1
+{
+    margin-top: 12%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*================cart in courses style===============*/
+.cartt .CardImg
+{
+  height: 200px;
+}
+.cartt Link {
+  text-decoration: none;
+}
+.cartt .tit
+{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(48, 45, 45);
+}
+.cartt:hover
+{
+  width: 270px;
+  height: 300px;
+}
+/*===============detailse style=================*/
+.container .row
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .row .div1
+{
+  width: 300px;
+  height: 500px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container .row .div1 img
+{
+  width: 100%;
+  height: 300px;
+}
+.container .row .div1  h4{
+  color: gray;
+}
+.container .row .div1 p{
+  color: rgb(187, 23, 23);
+}
+.down i
+{
+  color: green;
+  font-size: 19px;
+}
+.div1
+{
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.div1:hover
+{
+  box-shadow: 6px 10px 14px 6px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.down i:hover{
+  font-size: 22px;
+}
+/*=============style sigin page===============*/
+.form
+{
+ padding:10% 35%;
+}
+.mail
+{
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px;
+}
+
+.container .row
+{
+  padding-top: 5%;
+}
+/*=============style About page===============*/
+.aboutpage
+{
+ 
+  animation-name: example2;
+  animation-duration: 6s;
+  animation-iteration-count: 100;
+  margin-top: 8%;
+  padding:  35px 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@keyframes example2 {
+  from {border:2px solid blue;}
+  to {border:2px solid red;}
+}
+ .titl
+ {
+  color: grey;
+ }
+ /*=============style Contact page===============*/
+.contact h3
+ {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: grey;
+  animation-name: example3;
+  animation-duration: 6s;
+  animation-iteration-count: 100;
+  margin: 30px;
+  padding: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact h3:hover
+{
+  
+  padding: 23px;
+  
+}
+@keyframes example3 {
+  from {border:2px solid blue;}
+  to {border:2px solid red;}
+}
+.contact h3 i:hover{
+ 
+  color: red;
+}
+.contact
+{
+  padding-left: 31%;
+  padding-top: 5%;
+}
+/*===============footer style=================*/
+.footer 
+{
+  background-color: rgb(34, 33, 33);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(141, 135, 135);
+  width: 99%;
+  padding: 20px;
+  margin-top: 5%;
+}
+.copywrite
+{
+  padding-top: 18%;
+  padding-left: 50%;
+}
+.list
+{
+  list-style: none;
+  padding-left:40%;
+  
+}
+.list i
+{
+  color: blue;
+  font-size: 30px;
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
